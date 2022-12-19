@@ -1,0 +1,185 @@
+
+
+
+:root {
+--main-text-color:#434455;
+--title-color: #2E2F42;
+--web-color: #4D5AE5;
+--white-color: #FFFFFF;
+--footer-text-color: #E7E9FC;
+--cloud-background: #F4F4FD;
+--main-font-family: 'Roboto', sans-serif;
+--logo-font-family: 'Raleway', sans-serif;
+}
+.links, .header-list, .features-list, .images-list, .employees-list, .list-buttons, .list-portfolio {
+    list-style: none;
+}
+ 
+a {text-decoration: none;}
+
+body { color: var(--main-text-color);
+    background-color: var(--white-color);
+    font-family: var(--main-font-family);
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+/*  Constant */
+    
+
+/* ======= Header Шапка сторінки ======= */
+
+.logo {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--web-color);
+}
+
+.logo-studio {
+    color:var(--title-color);
+}
+
+.link-studio, .link-portfolio, .link-contacts {
+font-weight: 600;
+line-height: 1.5;
+color: var(--title-color);
+
+}
+.links:hover, .links:focus {
+    color:var(--main-text-color);
+}
+.link-studio:active, .link-portfolio:active, .link-contacts:active {
+    color: var(--web-color);
+}
+
+.tel, .mail {
+color: inherit;
+line-height: 1.5;
+}
+.tel:hover, .tel:focus, .mail:hover, .mail:focus {color: var(--web-color); }
+
+/* === section 1 Заголовна частина ====== */
+
+.heading, .footer {
+    background-color: var(--title-color);
+}
+.heading-title {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: var(--white-color);
+}
+.button {
+background-color: var(--web-color);
+font-family: var(--main-font-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.04em;
+color: var(--white-color);
+cursor: pointer;
+}
+ .button:active {
+    background-color: #404BBF;
+}
+/* ======= section 2 Особливості роботи ======*/
+
+ .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.feature-items {
+color: var(--title-color);
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+}
+.feature-text {
+line-height: 1.5;
+}
+/* ======== section 3 Фото контент ======= */
+
+.images-title, .employees-title {
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+color: var(--title-color)}
+
+
+/* ========  section 4 Співробітники =======*/
+.employees {background: var(--cloud-background);}
+
+.employees-icon {
+background-color: var(--white-color);
+}
+.employees-subtitle {
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+color: var(--title-color);
+}
+.employees-text {
+line-height: 1.5;
+text-align: center;
+}
+/* ========= footer підвал ============== */
+
+
+.footer-text {
+line-height: 1.5;
+color: var(--footer-text-color)}
+.logo-footer {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--web-color);
+}
+
+.logo-studio-footer {color: var(--cloud-background)
+}
+
+/* =========== Portfolio =============*/
+
+.portfolio-button {
+font-family: var(--main-font-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--web-color);
+background: var(--cloud-background);
+cursor: pointer;
+}
+.portfolio-button:active, .portfolio-button:hover, .portfolio-button:focus {
+    background: var(--web-color);
+    color: var(--white-color);
+}
+.subtitle-portfolio {
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+color: var(--title-color);
+}
+.text-portfolio {
+line-height: 1.5;
+}
